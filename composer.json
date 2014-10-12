@@ -1,0 +1,26 @@
+{
+    "name": "shade/shade",
+    "minimum-stability": "dev",
+    "type": "project",
+    "description": "Shade Framework",
+    "keywords": ["framework", "microframework", "PHP"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Shapkin",
+            "email": "i@denis-shapkin.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "shade/shade-framework-core": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "scripts": {
+        "post-create-project-cmd" : [
+            "php vendor/shade/shade-framework-core/shade-cli.php new ShadeApp ./"
+        ]
+    }
+}
