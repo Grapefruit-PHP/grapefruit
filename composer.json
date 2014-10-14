@@ -20,7 +20,7 @@
     },
     "scripts": {
         "post-create-project-cmd" : [
-            "php vendor/shade/shade-framework-core/shade-cli.php new ShadeApp ./ShadeApp"
+            "php vendor/shade/shade-framework-core/shade-cli.php new"
         ]
     }
 }
