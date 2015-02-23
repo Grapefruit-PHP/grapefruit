@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "shade/shade-framework-core": "dev-master"
+        "shade/shade-framework-core": "1.0.0"
     },
     "config": {
         "bin-dir": "bin"
